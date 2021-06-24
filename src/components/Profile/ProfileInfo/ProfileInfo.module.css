@@ -1,0 +1,33 @@
+.main__content img {
+	width: 100%;
+}
+
+.main__content_avatar {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.main__content_avatar img {
+	width: 150px;
+	height: auto;
+	margin-right: 15px;
+}
+
+.avatar__description {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.user__name {
+	margin-top: 0;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.user__info {
+	margin: 0;
+	padding-top: 5px;
+	font-size: 16px;
+}

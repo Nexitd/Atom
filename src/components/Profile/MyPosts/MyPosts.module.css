@@ -1,0 +1,39 @@
+
+.main__content_posts {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.content__posts_title {
+	color: #1d1d1d;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.posts__area {
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.btn {
+	width: 150px;
+	line-height: 30px;
+}
+
+.btn__send_post {
+	align-self: flex-end;
+	margin-top: 20px;
+	vertical-align: middle;
+	color: #fff;
+	border: none;
+	background: green;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+}

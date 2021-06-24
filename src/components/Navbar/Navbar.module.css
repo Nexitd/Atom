@@ -1,0 +1,25 @@
+.nav {
+	grid-area: n;
+	background-color: burlywood;
+}
+
+
+.nav__item {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+.nav__item a.active {
+	color: blueviolet;
+	font-weight: bold;
+}
+
+.nav__settings {
+	margin: 35px 0;
+}
